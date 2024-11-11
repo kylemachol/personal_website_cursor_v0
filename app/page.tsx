@@ -198,7 +198,7 @@ export default function Component() {
             </svg>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-block rounded-md border-2 border-[#0f3460] px-6 py-2 text-base font-medium text-white transition-colors hover:bg-[#16213e] hover:text-white"
+              className="text-base"
             >
               MENU
             </button>
@@ -244,11 +244,11 @@ export default function Component() {
             <div className="grid gap-12 md:grid-cols-2 md:items-center">
               <div>
                 <h1 className="mb-6 font-serif text-5xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
-                  Hi, my<br />name is Robb<span className="text-[#e94560]">.</span>
+                  Hi, my<br />name is Kyle<span className="text-[#e94560]">.</span>
                 </h1>
                 <p className="text-lg leading-relaxed text-white md:text-xl">
-                  I'm an <span className="font-semibold">independent creative developer</span> based in
-                  Austin, Texas.
+                  I'm an <span className="font-semibold">Entrepreneur, Veteran, and Creator</span> based in
+                  Baton Rouge, Louisiana.
                 </p>
               </div>
               <div className="relative h-64 w-full md:h-96">
