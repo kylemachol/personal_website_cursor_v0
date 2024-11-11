@@ -198,7 +198,7 @@ export default function Component() {
             </svg>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-base"
+              className="inline-block rounded-md border-2 border-[#0f3460] px-6 py-2 text-base font-medium text-white transition-colors hover:bg-[#16213e] hover:text-white"
             >
               MENU
             </button>
